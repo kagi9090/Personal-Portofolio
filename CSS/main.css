@@ -160,6 +160,23 @@ img {
 .contact-links {
     text-decoration: none;
     padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .contact-links {
+        text-decoration: none;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    #contact h1 {
+        text-align: center;
+        font-size: 2em;
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
 }
 
 .contact-details {
